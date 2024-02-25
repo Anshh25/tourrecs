@@ -82,7 +82,7 @@ class _OnboardingState extends State<Onboarding> {
               itemBuilder: (context, index) {
                 return Column(
                   children: [
-                    SizedBox(height: 29),
+                    SizedBox(height: MediaQuery.sizeOf(context).height*0.007),
                     Image.asset(Onboardingdata[index]['image']),
                     SizedBox(height: 20),
                     Padding(
