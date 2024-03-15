@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "802124167346",
+    "firebase_url": "https://tourrecs-default-rtdb.firebaseio.com",
+    "project_id": "tourrecs",
+    "storage_bucket": "tourrecs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802124167346:android:55d47738ad9ada0c2531ab",
+        "android_client_info": {
+          "package_name": "com.example.tourrecs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802124167346-9m2mi2s9cavjjocamt5atjn4g6tqf5l8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tourrecs",
+            "certificate_hash": "ab4755e749390f5cea584093465da00df060d89f"
+          }
+        },
+        {
+          "client_id": "802124167346-3jbdvbvbl7reqtsj187vmje5et8tmm16.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCt3DPKgiE7z5HgqTp9tNKN1c7aXlv6KU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "802124167346-3jbdvbvbl7reqtsj187vmje5et8tmm16.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

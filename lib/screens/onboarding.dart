@@ -1,6 +1,5 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:tourrecs/screens/home.dart';
+import 'package:tourrecs/screens/signin.dart';
 
 class Onboarding extends StatefulWidget {
   const Onboarding({super.key});
@@ -33,7 +32,7 @@ class _OnboardingState extends State<Onboarding> {
       "content": 'Explore new travel destinations through our app.'
     },
     {
-      "image": 'assets/images/onboardingimage/onboarding1.jpg',
+      "image": 'assets/images/onboardingimage/onboarding3.jpg',
       "title1": 'SHARE',
       "title2": 'MEMORIES',
       "content": 'Share your weekend tour with others.'
@@ -56,10 +55,10 @@ class _OnboardingState extends State<Onboarding> {
               children: [
                 GestureDetector(
                   onTap: () {
-                    Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context) => Home(),));
+                    Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context) => SignInPage(),));
                   },
                   child: Text((currentpage==2)?""
-                   : "SKIP",
+                   : "Skip >",
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
                         color: Colors.black,
@@ -165,7 +164,7 @@ class _OnboardingState extends State<Onboarding> {
                 GestureDetector(onTap: () {
                   _pageController.nextPage(duration: Duration(milliseconds: 400), curve:  Curves.easeIn);
                   if(currentpage == 2){
-                    Navigator.of(context).push(MaterialPageRoute(builder: (context) => Home(),));
+                    Navigator.of(context).push(MaterialPageRoute(builder: (context) => SignInPage(),));
                   }
                 },
                   child: Container(
